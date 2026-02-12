@@ -1,3 +1,35 @@
-<p>dashboard works!</p>
-<!-- {{ id() }}
-{{ someOtherParameter() }} -->
+<h1>Acme Sales Dashboard</h1>
+<p>Annual Sales</p>
+<div
+  style="
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    border: 4px solid #000;
+    height: 200px;
+    width: 300px;
+  "
+>
+  <div
+    style="display: flex; justify-content: center; padding-top: 10px; height: 20px; width: 300px"
+  >
+    Sales forecast
+  </div>
+  <div
+    style="
+      display: flex;
+      font-size: 60px;
+      font-weight: bold;
+      justify-content: center;
+      padding-top: 50px;
+      height: 20px;
+      width: 300px;
+    "
+  >
+    £100K
+  </div>
+</div>
+
+<div style="margin-inline: 40px; margin-block: 40px">
+  <app-counter />
+</div>

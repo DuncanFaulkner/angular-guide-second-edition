@@ -1,4 +1,5 @@
 import { Component, input } from '@angular/core';
+import { Counter } from '../ui/counter/counter';
 export interface Product {
   id?: string | null;
   name?: string;
@@ -8,7 +9,7 @@ export interface Product {
 
 @Component({
   selector: 'app-dashboard',
-  imports: [],
+  imports: [Counter],
   templateUrl: './dashboard.html',
   styleUrl: './dashboard.scss',
 })

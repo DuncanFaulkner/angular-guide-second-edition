@@ -1,0 +1,13 @@
+<div class="container">
+  <button class="decrement decrement-btn" [disabled]="count() === 0" (click)="decrement()">
+    -
+  </button>
+  <div class="counter">
+    <div>
+      {{ count() }}
+    </div>
+  </div>
+  <div>
+    <button class="increment increment-btn" (click)="increment()">+</button>
+  </div>
+</div>
